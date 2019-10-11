@@ -10,18 +10,18 @@
 
 	@font-face{
 		font-family: akagi;
-		src: url("Police/AkagiPro-Black.ttf");
+		src: url("../Police/AkagiPro-Black.ttf");
 	}
 
 	@font-face{
 		font-family: roboto;
-		src: url("Police/roboto/Roboto-Light.ttf");
+		src: url("../Police/roboto/Roboto-Light.ttf");
 	}
 
 /* HEADER */
 
 	header{
-		background-image: url("Images/codage.jpg");
+		background-image: url("../Images/codage.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -48,7 +48,12 @@
 	}
 
 	li {
-		margin: 25px;
+		padding: 25px;
+	}
+
+	li:hover{
+		background-color: #353535;
+		color: #FFFFFF;
 	}
 
 	li a {
@@ -65,7 +70,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		background-image: url("Images/HomeBG2400px1x.png");
+		background-image: url("../Images/HomeBG2400px1x.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -88,54 +93,54 @@
 		margin: 0;
 	}
 
-#button{
-	width: 400px;
-	height: 60px;
-	background-color: #5C2D91;
-	box-shadow: 0 0 20px #25123A;
-	border: 0;
-	border-radius: 30px;
-	margin-top: 20px;
-	color: #FFFFFF;
-	font-family: akagi;
-	font-size: 20px;
-}
+	#button{
+		width: 400px;
+		height: 60px;
+		background-color: #5C2D91;
+		box-shadow: 0 0 20px #25123A;
+		border: 0;
+		border-radius: 30px;
+		margin-top: 20px;
+		color: #FFFFFF;
+		font-family: akagi;
+		font-size: 20px;
+	}
 
-/* BLOCK 2 */
+/* IDE 1 */
 
-#block_2{
-	text-align: center;
-	color: #000000;
-	margin: 60px auto;
-}
+	#block_2{
+		text-align: center;
+		color: #000000;
+		margin: 60px auto;
+	}
 
-h2{
-	font-family: akagi;
-	font-size: 33px;
-}
+	h2{
+		font-family: akagi;
+		font-size: 33px;
+	}
 
-.texte{
-	font-family: roboto;
-	font-size: 20px;
-}
+	.texte{
+		font-family: roboto;
+		font-size: 20px;
+	}
 
-#block_3{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: stretch;
-	margin: auto;
-	color: #FFFFFF;
-	background-image:linear-gradient(#000000, #393939);
-}
+	#block_3{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: stretch;
+		margin: auto;
+		color: #FFFFFF;
+		background-image:linear-gradient(#000000, #393939);
+	}
 
-.block{
-	width: 46vw;
-	padding: 0 2vw;
-	text-align: center;
-}
+	.block{
+		width: 46vw;
+		padding: 0 2vw;
+		text-align: center;
+	}
 
-.image{
-	width: 100%;
-}
+	.image{
+		width: 100%;
+	}
 
