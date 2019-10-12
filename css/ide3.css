@@ -1,3 +1,27 @@
+/* SCROLLBAR */
+
+	::-webkit-scrollbar {
+		width: 20px;
+	}
+
+	::-webkit-scrollbar-button {
+		width: 0px;
+		height: 0px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #FFFFFF;
+		border-radius: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #4B4B4B;
+	}
+
+	::-webkit-scrollbar-corner {
+		background: transparent;
+	}
+
 /* GENERAL */
 
 	html{
