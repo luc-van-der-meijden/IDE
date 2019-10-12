@@ -2,6 +2,20 @@
 
 	html{
 		margin: 0;
+		animation-name: html;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-in;
+		animation-duration: 2s;
+		animation-delay: 0s;
+	}
+
+	@keyframes html {
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
 	}
 
 	body{
@@ -57,18 +71,19 @@
 		padding: 25px;
 	}
 
-	li:hover{
-		background-color: #353535;
-		color: #FFFFFF;
-	}
-
 	li a {
 		display: block;
 		text-align: center;
 		text-decoration: none;
 		color: #FFFFFF;
+		border-bottom: 2px solid rgb(0, 0, 0, 0);
+		transition: transform .2s;
 	}
 
+	li a:hover {
+		border-bottom: 2px solid #35fa00;
+		transform: scale(1.1);
+	}
 
 	/* BLOCK 1 */
 
@@ -97,12 +112,13 @@
 
 		#button{
 			width: 400px;
-			height: 60px;
 			background-color: #1473e6;
 			box-shadow: 0 0 20px #072D5A;
 			border: 0;
 			border-radius: 30px;
-			margin-top: 20px;
+			margin: 20px auto 0 auto;
+			padding: 15px;
+			text-decoration: none;
 			color: #FFFFFF;
 			font-family: akagi;
 			font-size: 20px;
